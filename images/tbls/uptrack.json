@@ -1,0 +1,20 @@
+{
+  "$schema": "https://github.com/framjet/docker-uptrack-action/blob/main/schema.json",
+  "variants": [
+    {
+      "namespace": "framjet",
+      "name": "tbls",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": {
+        "namespace": "k1low",
+        "name": "tbls"
+      },
+      "filters": {
+        "tags": ["latest"]
+      }
+    }
+  ]
+}
